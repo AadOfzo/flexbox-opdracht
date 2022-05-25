@@ -3,3 +3,81 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumpurple;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+p, h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-basis: 300px;
+    justify-content: space-evenly;
+
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.five {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+

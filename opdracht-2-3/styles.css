@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2F3D9;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    font-weight: 500;
+    background-color: #DC9E82;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #C16E70;
+}
+
+article {
+    flex-basis: 300px;
+    flex-wrap: wrap;
+}
+
+
+
